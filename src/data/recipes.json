@@ -4,10 +4,10 @@
       "id": "1",
       "name": "Comforting Oatmeal Bowl",
       "mealType": ["breakfast"],
-      "moods": ["sad", "tired"],
+      "preferences": ["healthy", "comfort", "quick"],
       "ingredients": [
         "1 cup rolled oats",
-        "2 cups milk or water",
+        "2 cups milk or water", 
         "1 banana, sliced",
         "2 tbsp honey",
         "Cinnamon to taste"
@@ -15,21 +15,21 @@
       "instructions": [
         "Bring liquid to a boil in a pot",
         "Add oats and reduce heat to medium-low",
-        "Cook for 5 minutes, stirring occasionally",
+        "Cook for 5 minutes, stirring occasionally", 
         "Top with sliced banana, honey, and cinnamon"
       ],
       "prepTime": 10,
       "difficulty": "easy"
     },
     {
-      "id": "2",
+      "id": "2", 
       "name": "Energizing Smoothie Bowl",
       "mealType": ["breakfast", "snack"],
-      "moods": ["happy", "energetic"],
+      "preferences": ["healthy", "light", "quick"],
       "ingredients": [
         "2 frozen bananas",
         "1 cup mixed berries",
-        "1 cup spinach",
+        "1 cup spinach", 
         "1 cup almond milk",
         "Granola and fresh fruit for topping"
       ],
@@ -40,6 +40,533 @@
       ],
       "prepTime": 5,
       "difficulty": "easy"
+    },
+    {
+      "id": "3",
+      "name": "Spicy Chicken Stir-Fry",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["protein", "spicy", "quick"],
+      "ingredients": [
+        "2 chicken breasts, sliced",
+        "2 cups mixed vegetables",
+        "3 cloves garlic, minced",
+        "2 tbsp soy sauce",
+        "1 tbsp sriracha sauce",
+        "2 tbsp vegetable oil"
+      ],
+      "instructions": [
+        "Heat oil in a wok or large pan",
+        "Cook chicken until golden brown",
+        "Add vegetables and garlic",
+        "Stir in sauces and cook until vegetables are tender",
+        "Serve hot over rice"
+      ],
+      "prepTime": 20,
+      "difficulty": "medium"
+    },
+    {
+      "id": "4",
+      "name": "Comfort Mac and Cheese",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["comfort", "carby", "guilty"],
+      "ingredients": [
+        "1 pound macaroni",
+        "3 cups shredded cheese",
+        "2 cups milk",
+        "4 tbsp butter",
+        "1/4 cup flour",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook macaroni according to package directions",
+        "Make cheese sauce by melting butter and whisking in flour",
+        "Gradually add milk and cheese",
+        "Combine sauce with pasta",
+        "Season and serve"
+      ],
+      "prepTime": 25,
+      "difficulty": "medium"
+    },
+    {
+      "id": "5",
+      "name": "Fresh Summer Salad",
+      "mealType": ["lunch"],
+      "preferences": ["healthy", "light", "quick"],
+      "ingredients": [
+        "Mixed greens",
+        "Cherry tomatoes",
+        "Cucumber slices",
+        "Avocado",
+        "Balsamic vinaigrette",
+        "Crumbled feta cheese"
+      ],
+      "instructions": [
+        "Wash and chop all vegetables",
+        "Combine in a large bowl",
+        "Add feta cheese",
+        "Drizzle with vinaigrette",
+        "Toss and serve"
+      ],
+      "prepTime": 15,
+      "difficulty": "easy"
+    },
+    {
+      "id": "6",
+      "name": "Calming Chamomile Tea Cookies",
+      "mealType": ["snack", "dessert"],
+      "preferences": ["healthy", "comfort", "quick"],
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup sugar",
+        "2 chamomile tea bags",
+        "1 cup butter",
+        "1 tsp vanilla extract",
+        "Pinch of salt"
+      ],
+      "instructions": [
+        "Mix dry ingredients including tea leaves",
+        "Cream butter and sugar",
+        "Combine all ingredients",
+        "Roll into balls and flatten",
+        "Bake at 350°F for 12-15 minutes"
+      ],
+      "prepTime": 30,
+      "difficulty": "medium"
+    },
+    {
+      "id": "7",
+      "name": "Chocolate Lava Cake",
+      "mealType": ["dessert"],
+      "preferences": ["healthy", "comfort", "quick"],
+      "ingredients": [
+        "4 oz dark chocolate",
+        "1/2 cup butter",
+        "2 eggs",
+        "1/2 cup sugar",
+        "1/4 cup flour",
+        "Vanilla ice cream for serving"
+      ],
+      "instructions": [
+        "Melt chocolate and butter together",
+        "Whisk eggs and sugar until light",
+        "Fold in chocolate mixture and flour",
+        "Bake in ramekins at 425°F for 12 minutes",
+        "Serve warm with ice cream"
+      ],
+      "prepTime": 20,
+      "difficulty": "medium"
+    },
+    {
+      "id": "8",
+      "name": "Buddha Bowl with Tahini Dressing",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["healthy", "comfort", "quick"],
+      "ingredients": [
+        "1 cup quinoa",
+        "1 sweet potato, cubed",
+        "1 can chickpeas",
+        "2 cups kale",
+        "1 avocado",
+        "Tahini dressing"
+      ],
+      "instructions": [
+        "Cook quinoa according to package instructions",
+        "Roast sweet potato and chickpeas",
+        "Massage kale with olive oil",
+        "Assemble bowl with all ingredients",
+        "Drizzle with tahini dressing"
+      ],
+      "prepTime": 30,
+      "difficulty": "easy",
+      "isVegetarian": true,
+      "recipeLink": "https://minimalistbaker.com/sweet-potato-chickpea-buddha-bowl/"
+    },
+    {
+      "id": "9",
+      "name": "Mushroom Risotto",
+      "mealType": ["dinner"],
+      "preferences": ["healthy", "comfort", "quick"],
+      "ingredients": [
+        "Arborio rice",
+        "Mixed mushrooms",
+        "Vegetable broth",
+        "White wine",
+        "Parmesan cheese",
+        "Fresh herbs"
+      ],
+      "instructions": [
+        "Sauté mushrooms until golden",
+        "Toast rice with wine",
+        "Gradually add warm broth",
+        "Stir until creamy",
+        "Finish with parmesan"
+      ],
+      "prepTime": 45,
+      "difficulty": "medium",
+      "isVegetarian": true,
+      "recipeLink": "https://www.seriouseats.com/mushroom-risotto-recipe"
+    },
+    {
+      "id": "10",
+      "name": "Spicy Black Bean Tacos",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["protein", "spicy", "quick"],
+      "ingredients": [
+        "Black beans",
+        "Corn tortillas",
+        "Avocado",
+        "Lime",
+        "Mexican spices",
+        "Fresh salsa"
+      ],
+      "instructions": [
+        "Season and heat black beans",
+        "Warm tortillas",
+        "Mash avocado with lime",
+        "Assemble tacos",
+        "Top with salsa"
+      ],
+      "prepTime": 20,
+      "difficulty": "easy",
+      "isVegetarian": true,
+      "recipeLink": "https://cookieandkate.com/spicy-black-bean-tacos-recipe/"
+    },
+    {
+      "id": "11",
+      "name": "Green Detox Smoothie",
+      "mealType": ["breakfast", "snack"],
+      "preferences": ["healthy", "light", "quick"],
+      "ingredients": [
+        "Spinach",
+        "Kale",
+        "Green apple",
+        "Cucumber",
+        "Ginger",
+        "Lemon juice"
+      ],
+      "instructions": [
+        "Wash all produce",
+        "Combine in blender",
+        "Add water as needed",
+        "Blend until smooth",
+        "Serve immediately"
+      ],
+      "prepTime": 10,
+      "difficulty": "easy",
+      "isVegetarian": true,
+      "recipeLink": "https://minimalistbaker.com/glow-green-smoothie/"
+    },
+    {
+      "id": "12",
+      "name": "Coconut Curry Lentil Soup",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["healthy", "comfort", "quick"],
+      "ingredients": [
+        "Red lentils",
+        "Coconut milk",
+        "Curry powder",
+        "Vegetables",
+        "Vegetable broth",
+        "Fresh cilantro"
+      ],
+      "instructions": [
+        "Sauté vegetables",
+        "Add spices and lentils",
+        "Pour in coconut milk and broth",
+        "Simmer until lentils are tender",
+        "Garnish with cilantro"
+      ],
+      "prepTime": 35,
+      "difficulty": "medium",
+      "isVegetarian": true,
+      "recipeLink": "https://www.rainbowplantlife.com/blog/instant-pot-red-lentil-curry"
+    },
+    {
+      "id": "13",
+      "name": "Mediterranean Quinoa Salad",
+      "mealType": ["lunch"],
+      "preferences": ["healthy", "light", "quick"],
+      "ingredients": [
+        "Quinoa",
+        "Cherry tomatoes",
+        "Cucumber",
+        "Kalamata olives",
+        "Feta cheese",
+        "Greek dressing"
+      ],
+      "instructions": [
+        "Cook quinoa and let cool",
+        "Chop vegetables",
+        "Combine all ingredients",
+        "Add dressing",
+        "Chill before serving"
+      ],
+      "prepTime": 25,
+      "difficulty": "easy",
+      "isVegetarian": true,
+      "recipeLink": "https://www.loveandlemons.com/mediterranean-quinoa-salad/"
+    },
+    {
+      "id": "14",
+      "name": "Chocolate Avocado Mousse",
+      "mealType": ["dessert", "snack"],
+      "preferences": ["healthy", "comfort", "quick"],
+      "ingredients": [
+        "Ripe avocados",
+        "Dark chocolate",
+        "Maple syrup",
+        "Vanilla extract",
+        "Cocoa powder",
+        "Sea salt"
+      ],
+      "instructions": [
+        "Blend avocados until smooth",
+        "Melt chocolate",
+        "Combine all ingredients",
+        "Chill for 2 hours",
+        "Serve with berries"
+      ],
+      "prepTime": 15,
+      "difficulty": "easy",
+      "isVegetarian": true,
+      "recipeLink": "https://minimalistbaker.com/amazing-4-ingredient-chocolate-mousse/"
+    },
+    {
+      "id": "15",
+      "name": "Tandoori Veggie Quesadillas",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["healthy", "light", "quick"],
+      "ingredients": [
+        "Tortillas",
+        "Mixed vegetables (peppers, onions, mushrooms)",
+        "Tandoori masala",
+        "Paneer or cheese",
+        "Greek yogurt",
+        "Mint chutney"
+      ],
+      "instructions": [
+        "Season vegetables with tandoori masala",
+        "Grill or sauté vegetables until tender",
+        "Layer tortillas with cheese and vegetables",
+        "Cook until crispy and golden",
+        "Serve with mint chutney"
+      ],
+      "prepTime": 25,
+      "difficulty": "easy",
+      "isVegetarian": true,
+      "recipeLink": "https://thechutneylife.com/tandoori-veggie-quesadillas/"
+    },
+    {
+      "id": "16",
+      "name": "Masala Khichdi",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["healthy", "comfort", "quick"],
+      "ingredients": [
+        "Rice",
+        "Yellow moong dal",
+        "Mixed vegetables",
+        "Indian spices",
+        "Ghee",
+        "Fresh herbs"
+      ],
+      "instructions": [
+        "Rinse rice and dal",
+        "Sauté spices in ghee",
+        "Add vegetables and water",
+        "Cook until soft and creamy",
+        "Garnish with fresh herbs"
+      ],
+      "prepTime": 30,
+      "difficulty": "easy",
+      "isVegetarian": true,
+      "recipeLink": "https://thechutneylife.com/instant-pot-masala-khichdi/"
+    },
+    {
+      "id": "17",
+      "name": "Coconut Curry Cavatappi",
+      "mealType": ["dinner"],
+      "preferences": ["healthy", "comfort", "quick"],
+      "ingredients": [
+        "Cavatappi pasta",
+        "Coconut milk",
+        "Curry powder",
+        "Mixed vegetables",
+        "Garlic and ginger",
+        "Fresh cilantro"
+      ],
+      "instructions": [
+        "Cook pasta al dente",
+        "Prepare curry sauce",
+        "Combine pasta with sauce",
+        "Add vegetables",
+        "Garnish with cilantro"
+      ],
+      "prepTime": 25,
+      "difficulty": "medium",
+      "isVegetarian": true,
+      "recipeLink": "https://thechutneylife.com/coconut-curry-cavatappi/"
+    },
+    {
+      "id": "18",
+      "name": "Japanese Miso Ramen",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["healthy", "comfort", "quick"],
+      "ingredients": [
+        "Ramen noodles",
+        "Miso paste",
+        "Dashi stock",
+        "Soft-boiled egg",
+        "Corn and bamboo shoots",
+        "Nori seaweed",
+        "Green onions"
+      ],
+      "instructions": [
+        "Prepare dashi stock",
+        "Mix in miso paste",
+        "Cook ramen noodles",
+        "Assemble bowl with toppings",
+        "Garnish with green onions"
+      ],
+      "prepTime": 30,
+      "difficulty": "medium",
+      "isVegetarian": true,
+      "cuisine": "Japanese",
+      "recipeLink": "https://www.justonecookbook.com/vegetarian-ramen/"
+    },
+    {
+      "id": "19",
+      "name": "Pad Thai",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["healthy", "light", "quick"],
+      "ingredients": [
+        "Rice noodles",
+        "Tofu",
+        "Bean sprouts",
+        "Peanuts",
+        "Tamarind sauce",
+        "Palm sugar",
+        "Lime"
+      ],
+      "instructions": [
+        "Soak rice noodles",
+        "Prepare tamarind sauce",
+        "Stir-fry tofu and vegetables",
+        "Add noodles and sauce",
+        "Garnish with peanuts and lime"
+      ],
+      "prepTime": 35,
+      "difficulty": "medium",
+      "isVegetarian": true,
+      "cuisine": "Thai",
+      "recipeLink": "https://hot-thai-kitchen.com/best-pad-thai/"
+    },
+    {
+      "id": "20",
+      "name": "Greek Spanakopita",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["healthy", "light", "quick"],
+      "ingredients": [
+        "Phyllo dough",
+        "Spinach",
+        "Feta cheese",
+        "Onions",
+        "Dill",
+        "Eggs",
+        "Olive oil"
+      ],
+      "instructions": [
+        "Sauté spinach and onions",
+        "Mix with feta and herbs",
+        "Layer phyllo sheets",
+        "Fill and fold into triangles",
+        "Bake until golden"
+      ],
+      "prepTime": 45,
+      "difficulty": "medium",
+      "isVegetarian": true,
+      "cuisine": "Mediterranean",
+      "recipeLink": "https://www.themediterraneandish.com/spanakopita-recipe/"
+    },
+    {
+      "id": "21",
+      "name": "Korean Bibimbap",
+      "mealType": ["lunch", "dinner"],
+      "preferences": ["healthy", "light", "quick"],
+      "ingredients": [
+        "Steamed rice",
+        "Assorted vegetables",
+        "Gochujang sauce",
+        "Sesame oil",
+        "Fried egg",
+        "Kimchi",
+        "Seaweed"
+      ],
+      "instructions": [
+        "Prepare rice and vegetables",
+        "Arrange in bowl",
+        "Top with fried egg",
+        "Add gochujang sauce",
+        "Mix before eating"
+      ],
+      "prepTime": 40,
+      "difficulty": "medium",
+      "isVegetarian": true,
+      "cuisine": "Korean",
+      "recipeLink": "https://www.maangchi.com/recipe/bibimbap"
+    },
+    {
+      "id": "22",
+      "name": "Moroccan Tagine",
+      "mealType": ["dinner"],
+      "preferences": ["healthy", "light", "quick"],
+      "ingredients": [
+        "Chickpeas",
+        "Mixed vegetables",
+        "Couscous",
+        "Moroccan spices",
+        "Preserved lemon",
+        "Olives",
+        "Fresh herbs"
+      ],
+      "instructions": [
+        "Prepare spice mixture",
+        "Layer vegetables in tagine",
+        "Slow cook until tender",
+        "Prepare couscous",
+        "Garnish with herbs"
+      ],
+      "prepTime": 50,
+      "difficulty": "medium",
+      "isVegetarian": true,
+      "cuisine": "Moroccan",
+      "recipeLink": "https://www.themediterraneandish.com/moroccan-vegetable-tagine-recipe/"
+    },
+    {
+      "id": "23",
+      "name": "Vietnamese Spring Rolls",
+      "mealType": ["lunch", "appetizer"],
+      "preferences": ["healthy", "light", "quick"],
+      "ingredients": [
+        "Rice paper wrappers",
+        "Rice noodles",
+        "Fresh herbs",
+        "Tofu",
+        "Vegetables",
+        "Peanut sauce",
+        "Hoisin sauce"
+      ],
+      "instructions": [
+        "Prepare filling ingredients",
+        "Soak rice paper",
+        "Fill and roll",
+        "Make dipping sauce",
+        "Serve immediately"
+      ],
+      "prepTime": 30,
+      "difficulty": "medium",
+      "isVegetarian": true,
+      "cuisine": "Vietnamese",
+      "recipeLink": "https://www.hungryhuy.com/vietnamese-spring-roll-recipe/"
     }
   ]
-} 
+}

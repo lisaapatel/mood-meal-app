@@ -1,22 +1,28 @@
 import React from 'react'
 import { RecipeCard } from '../RecipeCard/RecipeCard'
 
-export function RecipeList({ recipes }) {
-  if (recipes.length === 0) {
+export function RecipeList({ recipes, onClose }) {
+  if (!recipes || recipes.length === 0) {
     return (
-      <div className="text-center py-8">
-        <p className="text-gray-500 text-lg">
-          No recipes found for your selection. Try different criteria!
+      <div className="text-center py-8 bg-white rounded-xl shadow-sm">
+        <p className="text-gray-500 text-lg mb-4">
+          No recipes found. Try different selections!
         </p>
+        <button
+          onClick={onClose}
+          className="text-[#2d2d2d] hover:text-[#1a1a1a] underline"
+        >
+          Go back
+        </button>
       </div>
     )
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <>
       {recipes.map(recipe => (
-        <RecipeCard key={recipe.id} recipe={recipe} />
+        recipe ? <RecipeCard key={recipe.id} recipe={recipe} /> : null
       ))}
-    </div>
+    </>
   )
 } 

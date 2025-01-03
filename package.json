@@ -2,7 +2,7 @@
   "name": "recipe-mood-app",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/recipe-mood-app",
+  "homepage": "https://lisaapatel.github.io/mood-meal-app",
   "type": "module",
   "scripts": {
     "dev": "vite",

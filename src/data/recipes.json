@@ -1,0 +1,45 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Comforting Oatmeal Bowl",
+      "mealType": ["breakfast"],
+      "moods": ["sad", "tired"],
+      "ingredients": [
+        "1 cup rolled oats",
+        "2 cups milk or water",
+        "1 banana, sliced",
+        "2 tbsp honey",
+        "Cinnamon to taste"
+      ],
+      "instructions": [
+        "Bring liquid to a boil in a pot",
+        "Add oats and reduce heat to medium-low",
+        "Cook for 5 minutes, stirring occasionally",
+        "Top with sliced banana, honey, and cinnamon"
+      ],
+      "prepTime": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "2",
+      "name": "Energizing Smoothie Bowl",
+      "mealType": ["breakfast", "snack"],
+      "moods": ["happy", "energetic"],
+      "ingredients": [
+        "2 frozen bananas",
+        "1 cup mixed berries",
+        "1 cup spinach",
+        "1 cup almond milk",
+        "Granola and fresh fruit for topping"
+      ],
+      "instructions": [
+        "Blend frozen bananas, berries, spinach, and milk until smooth",
+        "Pour into a bowl",
+        "Top with granola and fresh fruit"
+      ],
+      "prepTime": 5,
+      "difficulty": "easy"
+    }
+  ]
+} 
